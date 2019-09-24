@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <script src="js/index.js"></script>
+    <script src="js/nav.js"></script>
     
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css" type="text/css">
@@ -12,7 +13,7 @@
     <title>Minha Primira página HMTL</title>
 </head>
 
-<body>
+<body id="bodyIndex">
     <header>
         <nav>
             <ul class="navList">
@@ -28,10 +29,12 @@
 
     <main>
         <section>
+            
             <h2>Home</h2>
-            <article>
+            <button type="button" id="botaoIndex">Click Me!</button>
+            <article id="articleLorem">
                 <h3>Lorem ipsum</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <p id="ParagrafoLorem">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Eaque necessitatibus doloremque aliquid unde ducimus totam 
                      repudiandae expedita ab voluptatem tempore quasi magni officia rem 
                      eveniet sunt cum est, pariatur saepe!</p>
