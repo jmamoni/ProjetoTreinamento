@@ -22,28 +22,37 @@
         </nav>
         <h1>Formulário</h1>
     </header>
+
+    <img src="img/ciandt-log.png" alt="ciandt-logo" id="logoCIT" />
+
     <main>
-        <div>
-            <h2>Fomulário</h2>  
+        <section>
+            <h2>Fomulário</h2>
             <form>
-                <label for="IddoUsuairo">ID</label>
-                <input type ="number" id="IddoUsuario" name="IddoUsuario" autofocus required> 
-                <br/>
-                <label for="NomeUsuario">Nome</label>
-                <input type ="text" id="NomeUsuario" name="NomeUsuario" required> 
-                <br/>
-                <label for="Telefone">E-Telefone</label>
-                <input type ="tel" id="Telefone" name="Telefone"> 
-                <br/>
-                <label for="Email">E-mail</label>
-                <input type ="email" id="Email" name="Email" required> 
-                <br/> <br/> <br/>
-                <input type="submit" value="Enviar">
-            </form>                  
-        </div>
+                <div class="field-group">
+                    <label for="IddoUsuairo">ID</label>
+                    <input type="number" id="IddoUsuario" name="IddoUsuario" autofocus required>
+                </div>
+                <div class="field-group">
+                    <label for="NomeUsuario">Nome</label>
+                    <input type="text" id="NomeUsuario" name="NomeUsuario" required>
+                </div>
+                <div class="field-group">
+                    <label for="Telefone">Telefone</label>
+                    <input type="tel" id="Telefone" name="Telefone">
+                </div>
+                <div class="field-group">
+                    <label for="Email">E-mail</label>
+                    <input type="email" id="Email" name="Email" required>
+                </div>
+                <div class="field-group">
+                    <input type="submit" value="Enviar" id="BotaoEnviar">
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
-            <p>&copy; ciandt.com.br. Todos os direitos reservados.</p>
+        <p>&copy; ciandt.com.br. Todos os direitos reservados.</p>
     </footer>
 
 </body>
